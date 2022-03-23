@@ -26,7 +26,7 @@ function createNoteElement(id, content)
 
   element.classList.add("note");
   element.value = content;
-  element.placeholder = "Write Something!!";
+  element.placeholder = "Write Something!!!";
 
   element.addEventListener("change", () => 
   {
